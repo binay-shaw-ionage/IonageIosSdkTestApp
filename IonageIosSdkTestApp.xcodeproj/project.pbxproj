@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4611321F2CC51AAB0044E591 /* IonageSDKLibraryTest in Frameworks */ = {isa = PBXBuildFile; productRef = 4611321E2CC51AAB0044E591 /* IonageSDKLibraryTest */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		461131F62CC516190044E591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4611321F2CC51AAB0044E591 /* IonageSDKLibraryTest in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = IonageIosSdkTestApp;
 			packageProductDependencies = (
+				4611321E2CC51AAB0044E591 /* IonageSDKLibraryTest */,
 			);
 			productName = IonageIosSdkTestApp;
 			productReference = 461131E52CC516180044E591 /* IonageIosSdkTestApp.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 461131DC2CC516180044E591;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4611321D2CC51AAB0044E591 /* XCRemoteSwiftPackageReference "IonageSDKLibraryTest" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 461131E62CC516180044E591 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4611321D2CC51AAB0044E591 /* XCRemoteSwiftPackageReference "IonageSDKLibraryTest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/binay-shaw-ionage/IonageSDKLibraryTest";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4611321E2CC51AAB0044E591 /* IonageSDKLibraryTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4611321D2CC51AAB0044E591 /* XCRemoteSwiftPackageReference "IonageSDKLibraryTest" */;
+			productName = IonageSDKLibraryTest;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 461131DD2CC516180044E591 /* Project object */;
 }

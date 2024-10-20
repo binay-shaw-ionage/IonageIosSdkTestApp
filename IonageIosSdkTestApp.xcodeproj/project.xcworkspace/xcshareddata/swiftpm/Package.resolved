@@ -1,0 +1,15 @@
+{
+  "originHash" : "21e522d5f74331cdaeca4efc3d969e61b91e09f6f11b3ceb2a3502621bbf0755",
+  "pins" : [
+    {
+      "identity" : "ionagesdklibrarytest",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/binay-shaw-ionage/IonageSDKLibraryTest",
+      "state" : {
+        "branch" : "main",
+        "revision" : "04eb772bd57c49219d286f8e32769ca04eb81eaa"
+      }
+    }
+  ],
+  "version" : 3
+}
